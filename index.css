@@ -1,0 +1,216 @@
+body {
+    
+    color:rgb(151, 151, 151);
+    
+    border-radius:20px;
+    margin-left: 25%;
+    width:60%;
+    
+    
+  }
+  .container-1{
+      display:flex;
+      justify-content: flex-bottom;
+     
+  }
+img{
+    height:50%;
+    width:50%;
+    border-radius:100px;
+}
+.box-1{
+    height:50%;
+    width:40%;
+    padding-left: 10%;
+    
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.box-3 {
+    margin-left: 17%;
+    border:3px solid black;
+    border-radius:20px;
+    flex:1.5;
+    background-color: rgb(37, 37, 37);
+}
+
+.box-3 h4, .box-4 h4{
+    padding-left: 5%;
+    
+}
+.box-4{
+    border:3px solid black;
+    margin-right:15%;
+    border-radius:20px;
+    flex:1.5;
+    background-color: rgb(37, 37, 37);
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+.box-5{
+    border:3px solid black;
+    border-radius:20px;
+    flex-basis:75%;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 37);
+    margin-right:10%;
+}
+.container-4{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    
+}
+.box-6{
+    border:3px solid black;
+    border-radius:20px;
+    flex-basis:75%;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 37);
+    margin-right:10%;
+}
+.container-4 th, .container-4 td{
+    border-radius:20px;
+    
+}
+.container-5{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box-7{
+    border:3px solid black;
+    border-radius:20px;
+    flex-basis:68%;
+    background-color: rgb(37, 37, 37);
+    margin-left:2.3%;
+}
+.container-5 th, .container-5 td{
+    border-radius:20px;
+}
+#container-color{
+    background-color: rgb(14, 14, 14);
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.HTML, .CSS, .Python, .C,.Data_Structures {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid black;
+    height: 30px;
+}
+
+.HTML {
+    width: 72%;
+    background-color: #469147;
+ }
+ .CSS {
+    width: 64%;
+    background-color: #7cc592;
+ }
+ .Python {
+    width: 80%;
+    background-color: rgb(1, 54, 1);
+ }
+ .C {
+    width: 16%;
+    background-color: #8d4141;
+ }
+ .Data_Structures{
+    width: 80%;
+    background-color: rgb(1, 54, 1);
+ }
+ .l_container{
+    width:50%;
+    border: 3px solid black;
+    height: 35px;
+    font-weight: bolder;
+    margin-bottom: 3px;
+    text-align: justify;
+    margin-left: 10%;
+    border-radius:20px;
+    color:black;
+  }
+  .l_container .A_bar {
+    height: 100%;
+    width: 100%;
+    background-color: #033316;
+    animation: fill-A-bar 3s 1;
+    border-radius:20px;
+    text-align: center;
+   
+  }
+  .l_container .E_bar {
+     height: 100%;
+     width: 80%;
+     background-color: #5db681;
+     animation: fill-E-bar 3s 1;
+     border-radius:20px;
+     text-align: center;
+   }
+   .l_container .F_bar {
+     height: 100%;
+     width: 60%;
+     background-color: #8caa47;
+     animation: fill-F-bar 3s 1;
+     border-radius:20px;
+     text-align: center;
+   }
+   .l_container .G_bar {
+     height: 100%;
+     width: 25%;
+     background-color: #b42525;
+     animation: fill-G-bar 3s 1;
+     border-radius:20px;
+     text-align: center;
+  
+   }
+   @keyframes fill-A-bar {
+    from {width: 0%;}
+    to {width: 100%;}
+  }
+  @keyframes fill-E-bar {
+     from {width: 0%;}
+     to {width: 80%;}
+   }
+   @keyframes fill-F-bar {
+     from {width: 0%;}
+     to {width: 60%;}
+   }
+   @keyframes fill-G-bar {
+     from {width: 0%;}
+     to {width: 25%;}
+   }
+   h3{
+    font-style:italic;
+    font-size:150%;
+    text-decoration:underline;
+ }
+ li{
+    list-style-type:square;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+    margin-left: 13%;
+ }
+tbody th, thead th{
+    background-color:white;
+ }
+
+tbody tr td{
+    text-align: center;
+}
+.container{
+    padding-left: 24px;
+}
